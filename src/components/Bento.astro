@@ -22,12 +22,13 @@ import BentoItem from "./BentoItem.astro";
         >
         </div>
         <p slot="content" class="max-w-xl">
-            Una nueva edición cargada de novedades y contenido, que empezará
-            varias semanas antes de la ansiada gala. Directos especiales,
-            colaboraciones, conciertos y mucho más en lo que será una auténtica
-            fiesta dedicada a la creación de contenido.
+            Una nueva edición <strong>cargada de novedades</strong> y contenido,
+            que empezará varias semanas antes de la ansiada gala. <strong
+                >Directos especiales, colaboraciones, conciertos y mucho más</strong
+            > en lo que será una auténtica fiesta dedicada a la creación de contenido.
         </p>
     </BentoItem>
+
     <BentoItem
         class="col-span-10 md:col-span-6"
         title="LA ALFOMBRA BLANCA"
@@ -36,13 +37,19 @@ import BentoItem from "./BentoItem.astro";
         <div
             slot="image"
             class="background transition-scale absolute bottom-0 left-0 top-0
-    -z-10 h-full w-full bg-blue-950
+    -z-10 h-full w-full bg-blue-900
     bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
-            style="background-image: url('/montania.webp');"
+            style="background-image: url('/pistas.png');"
         >
         </div>
-        <p slot="content"></p>
+        <p slot="content">
+            Este año, el momento de la alfombra azul será sustituido y mejorado,
+            gracias a los increíbles paisajes andorranos, por una <strong
+                >alfombra blanca en plena nieve</strong
+            >, situada en las <strong>pistas de esquí de Andorra.</strong>
+        </p>
     </BentoItem>
+
     <BentoItem
         class="col-span-10 md:col-span-6"
         title="LA GALA"
@@ -51,13 +58,19 @@ import BentoItem from "./BentoItem.astro";
         <div
             slot="image"
             class="background transition-scale absolute bottom-0 left-0 top-0
-    -z-10 h-full w-full bg-blue-950
+    -z-10 h-full w-full bg-blue-800
     bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
-            style="background-image: url('/montania.webp');"
+            style="background-image: url('/grefposing.png');"
         >
         </div>
-        <p slot=""></p>
+        <p slot="content">
+            Una gala de premios llena de <strong
+                >contenido de primer nivel y muchas sorpresas,</strong
+            > en la que se descubrirán los <strong>ganadores</strong> de esta tercera
+            edición de los Premios ESLAND.
+        </p>
     </BentoItem>
+
     <BentoItem
         class="col-span-10 md:col-span-4"
         title="DISFRUTA DEL REDDIT DE LA COMUNIDAD"
@@ -67,9 +80,16 @@ import BentoItem from "./BentoItem.astro";
             class="background transition-scale absolute bottom-0 left-0 top-0
     -z-10 h-full w-full bg-blue-950
     bg-cover bg-center bg-no-repeat opacity-90 bg-blend-luminosity duration-1000 ease-in-out group-hover:scale-110"
-            style="background-image: url('/montania.webp');"
+            style="background-image: url('/laptop.png');"
         >
         </div>
-        <p slot="content"></p>
+        <p slot="content">
+            Este año, el reddit no formará parte de las votaciones de los
+            premios, pero sí que <strong>formará parte de la comunidad.</strong>
+            El subreddit oficial de los Premios ESLAND está abierto para ti, para
+            que compartas tus clips, tus opiniones y para que <strong
+                >interactúes con toda la comunidad</strong
+            > del streaming hispanohablante.
+        </p>
     </BentoItem>
 </section>
